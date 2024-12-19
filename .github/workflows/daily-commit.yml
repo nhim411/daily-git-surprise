@@ -1,8 +1,8 @@
-name: Hourly Commit
+name: Daily Commit
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
